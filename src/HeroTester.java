@@ -103,7 +103,7 @@ public class HeroTester {
     public void TestAllMethodsHaveBeenImplemented() {
         setUp();
         Method[] methods = hero1.getClass().getDeclaredMethods();
-        assertEquals("Ensure that you have implemented all of the methods that are included in the description!", 10,methods.length);
+        assertEquals("Ensure that you have implemented all of the methods that are included in the description!", 11,methods.length);
         tearDown();
     }
 
